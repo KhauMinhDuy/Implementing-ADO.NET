@@ -22,7 +22,7 @@ namespace ADONET_Samples.UserControls
 
     private void OpenConnectionSQLServerAuth_Click(object sender, RoutedEventArgs e)
     {
-      _viewModel.Connect("Server=Localhost;Database=ADONETSamples;User ID=sa;Password=P@ssw0rd;");
+      _viewModel.Connect("Server=Localhost;Database=ADONETSamples;User ID=sa;Password=Aa123456!;");
     }
 
     private void ConnectionUsingBlock_Click(object sender, RoutedEventArgs e)
