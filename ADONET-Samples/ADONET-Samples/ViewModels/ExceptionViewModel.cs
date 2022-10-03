@@ -132,7 +132,7 @@ namespace ADONET_Samples.ViewModels
                     {
                         // NOTE: The following parameter is spelled incorrectly.
                         cmd.Parameters.Add(new SqlParameter("@ProdutName", "Generate Exception"));
-                        cmd.Parameters.Add(new SqlParameter("@IntroductionDate", DateTime.Now));
+                        cmd.Parameters.Add(new SqlParameter("@IntroductionDate", DateTime.Now.ToString()));
                         cmd.Parameters.Add(new SqlParameter("@Url", "www.wrong.com"));
                         cmd.Parameters.Add(new SqlParameter("@Price", 0));
 
